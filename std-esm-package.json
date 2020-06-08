@@ -1,0 +1,18 @@
+{
+  "name": "name-import-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "example-cjs-module": "file:cjs-module",
+    "example-esm-module": "file:esm-module"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}
